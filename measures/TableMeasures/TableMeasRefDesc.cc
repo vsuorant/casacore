@@ -285,10 +285,11 @@ void TableMeasRefDesc::writeKeys (TableRecord& measInfo,
 {
   if (isRefCodeVariable()) {
     measInfo.define ("VarRefCol", itsColumn);
-    if (itsRefCodeColInt) {
-      measInfo.define ("TabRefTypes", itsTabRefTypes);
-      measInfo.define ("TabRefCodes", itsTabRefCodes);
-    }
+    // Outcommented on 24-Aug-2015 (issue #220).
+    ///    if (itsRefCodeColInt) {
+    ///      measInfo.define ("TabRefTypes", itsTabRefTypes);
+    ///      measInfo.define ("TabRefCodes", itsTabRefCodes);
+    ///    }
   } else {
     measInfo.define ("Ref", measDesc.refType (itsRefCode));
   } 

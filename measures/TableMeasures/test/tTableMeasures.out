@@ -128,10 +128,12 @@ TableDesc tTableMeasures_tmp   version 1   (Directory ./)
     MEASINFO: {
       type: String "epoch"
       VarRefCol: String "TimeRef"
+>>>>
       TabRefTypes: String array with shape [12]
 [LAST, LMST, GMST1, GAST, UT1, UT2, UTC, TAI, TDT, TCG, TDB, TCB]
       TabRefCodes: uInt array with shape [12]
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+<<<<
       RefOffCol: String "TimeVarOffset"
       RefOffvarPerArr: Bool 0
     }
@@ -181,10 +183,12 @@ TableDesc tTableMeasures_tmp   version 1   (Directory ./)
     MEASINFO: {
       type: String "epoch"
       VarRefCol: String "TimeArrRef"
+>>>>
       TabRefTypes: String array with shape [12]
 [LAST, LMST, GMST1, GAST, UT1, UT2, UTC, TAI, TDT, TCG, TDB, TCB]
       TabRefCodes: uInt array with shape [12]
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+<<<<
       RefOffMsr: {
         type: String "epoch"
         refer: String "UTC"
@@ -201,10 +205,12 @@ TableDesc tTableMeasures_tmp   version 1   (Directory ./)
     MEASINFO: {
       type: String "epoch"
       VarRefCol: String "Time2ArrRef"
+>>>>
       TabRefTypes: String array with shape [12]
 [LAST, LMST, GMST1, GAST, UT1, UT2, UTC, TAI, TDT, TCG, TDB, TCB]
       TabRefCodes: uInt array with shape [12]
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+<<<<
       RefOffCol: String "Time2ArrOffset"
       RefOffvarPerArr: Bool 1
     }

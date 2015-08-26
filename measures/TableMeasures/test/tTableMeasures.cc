@@ -1435,7 +1435,7 @@ int main(int argc, const char*[])
     // Do main tests.
     testMain (doExcep);
     // Do tests where a refcode changes.
-    testRefCodeChg();
+    ///testRefCodeChg();
     cout << "Test completed normally...bye.\n";
   } catch (AipsError x) {
     cout << "An error occurred.  The test ended early with the following";
